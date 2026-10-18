@@ -21,6 +21,34 @@
             <th>Jueves</th>
             <th>Viernes</th>
         </tr>
+        <!-- 1ª hora -->
+        <tr>
+            <th>1ª hora</th>
+            <!-- td (table data): define celdas de datos normales dentro de una fila -->
+            <!-- rowspan: atributo que permite a una celda expandirse verticalmente ocupando varias filas -->
+            <td rowspan="2">Programación</td>
+            <td rowspan="2">Sistemas informáticos</td>
+            <td rowspan="2">Bases de datos</td>
+            <td rowspan="2">Programación</td>
+            <td>Sistemas informáticos</td>
+        </tr>
+
+        <!-- 2ª hora -->
+        <tr>
+            <th>2ª hora</th>
+            <!-- Las celdas de Lunes a Jueves están ocupadas por el rowspan de la 1ª hora -->
+            <td>Lenguajes de marcas</td>
+        </tr>
+
+        <!-- 3ª hora -->
+        <tr>
+            <th>3ª hora</th>
+            <td>Entornos de desarrollo</td>
+            <td>Programación</td>
+            <td>Sistemas informáticos</td>
+            <td>Bases de datos</td>
+            <td>Programación</td>
+        </tr>
 
     </table>
 </body>
